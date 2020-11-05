@@ -20,7 +20,7 @@ let daysInYear: Float = 365.25
 /*:
  2.4 Объявите переменную типа `Float` с именем `daysPassed` и присвойте ей значение количества дней с момента вашего рождения плюс 10 лет (используйте `myAgeInTenYears` и `daysInYear`).
  */
-var daysPassed: Float = Float(myAgeInTenYears) * daysInYear
+var daysPassed = Float(myAgeInTenYears) * daysInYear
 /*:
  2.5 При помощи функции `print()` выведите на консоль фразу: «Мой возраст <...> лет. Через 10 лет, мне будет <...> лет, с момента моего рождения пройдет <...> дней. Символы (<...>) необходимо заменить на значения переменных.
  */
