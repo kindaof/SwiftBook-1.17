@@ -18,14 +18,15 @@ import UIKit
  
  - Игра с АкБарс - 1:2
  */
-let dictionary = [
+let resultOfGame = [
     "Салават Юлаев" : ["3:6", "5:5"],
     "Авангард" : ["2:1", "2:3"],
     "АкБарс" : ["3:3", "1:2"]
 ]
-for (keys, values) in dictionary {
-    print("Игра с \(keys) - \(values[0])")
-    print("Игра с \(keys) - \(values[1])")
+for (keys, values) in resultOfGame {
+    for result in values {
+    print("Игра с \(keys) - \(result)")
+    }
 }
 /*:
  ### Задание 2
